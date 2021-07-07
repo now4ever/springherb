@@ -13,9 +13,11 @@ public class CommentServiceImpl implements CommentService{
 	
 	@Override
 	public int insertCmt(CommentVO vo) {
+		//안녕하세요~~
 		return commentDao.insertCmt(vo);
 	}
 
+	//test
 	@Override
 	public List<CommentVO> selectAll() {
 		return commentDao.selectAll();

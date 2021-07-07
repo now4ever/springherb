@@ -22,7 +22,7 @@
 </style>     
 <div class="divOuter">	
 	<c:if test="${empty list }">
-		<div class="line">해당 상품이 없습니다.</div>
+		<div class="line">** 해당 상품이 없습니다.~~~~~</div>
 	</c:if>
 	<c:if test="${!empty list }">
 		<c:forEach var="vo" items="${list }">
