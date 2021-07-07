@@ -13,6 +13,7 @@ public class CommentServiceImpl implements CommentService{
 	
 	@Override
 	public int insertCmt(CommentVO vo) {
+		//test¾È³ç
 		return commentDao.insertCmt(vo);
 	}
 
