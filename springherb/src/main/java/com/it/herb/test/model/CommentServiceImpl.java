@@ -13,10 +13,12 @@ public class CommentServiceImpl implements CommentService{
 	
 	@Override
 	public int insertCmt(CommentVO vo) {
-		//testæ»≥Á
+		//testæ»≥Á, ø¿ƒ…¿Ã
+
 		return commentDao.insertCmt(vo);
 	}
 
+	//test
 	@Override
 	public List<CommentVO> selectAll() {
 		return commentDao.selectAll();
